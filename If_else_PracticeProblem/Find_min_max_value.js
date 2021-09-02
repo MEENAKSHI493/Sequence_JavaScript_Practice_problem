@@ -1,89 +1,93 @@
-number1 = (Math.floor(Math.random() * 100) % 900) + 100;
-number2 = (Math.floor(Math.random() * 100) % 900) + 100;
-number3 = (Math.floor(Math.random() * 100) % 900) + 100;
-number4 = (Math.floor(Math.random() * 100) % 900) + 100;
-number5 = (Math.floor(Math.random() * 100) % 900) + 100;
-console.log(number1, number2, number3, number4, number5);
+// Find minimum and maximum value using random function
+
+Num1 = (Math.floor(Math.random() * 100) % 999) + 100;
+Num2 = (Math.floor(Math.random() * 100) % 999) + 100;
+Num3 = (Math.floor(Math.random() * 100) % 999) + 100;
+Num4 = (Math.floor(Math.random() * 100) % 999) + 100;
+Num5 = (Math.floor(Math.random() * 100) % 999) + 100;
+
+console.log(Num1, Num2, Num3, Num4, Num5);
 //for maximum
 if (
-  number1 > number2 &&
-  number1 > number3 &&
-  number1 > number4 &&
-  number1 > number5
+  Num1 > Num2 &&
+  Num1 > Num3 &&
+  Num1 > Num4 &&
+  Num1 > Num5
 ) {
-  console.log("maximum number " + number1);
+  console.log("maximum number " + Num1);
 }
 if (
-  number2 > number1 &&
-  number2 > number3 &&
-  number2 > number4 &&
-  number2 > number5
+  Num2 > Num1 &&
+  Num2 > Num3 &&
+  Num2 > Num4 &&
+  Num2 > Num5
 ) {
-  console.log("maximum number " + number2);
+  console.log("maximum number " + Num2);
 }
 if (
-  number3 > number2 &&
-  number3 > number1 &&
-  number3 > number4 &&
-  number3 > number5
+  Num3 > Num2 &&
+  Num3 > Num1 &&
+  Num3 > Num4 &&
+  Num3 > Num5
 ) {
-  console.log("maximum number " + number3);
+  console.log("maximum number " + Num3);
 }
 if (
-  number4 > number2 &&
-  number4 > number3 &&
-  number4 > number1 &&
-  number4 > number5
+  Num4 > Num2 &&
+  Num4 > Num3 &&
+  Num4 > Num1 &&
+  Num4 > Num5
 ) {
-  console.log("maximum number " + number4);
+  console.log("maximum number " + Num4);
 }
 if (
-  number5 > number2 &&
-  number5 > number3 &&
-  number5 > number1 &&
-  number5 > number4
+  Num5 > Num2 &&
+  Num5 > Num3 &&
+  Num5 > Num1 &&
+  Num5 > Num4
 ) {
-  console.log("maximum number " + number5);
+  console.log("maximum number " + Num5);
 }
 
 //for minimum
 if (
-  number1 < number2 &&
-  number1 < number3 &&
-  number1 < number4 &&
-  number1 < number5
+  Num1 < Num2 &&
+  Num1 < Num3 &&
+  Num1 < Num4 &&
+  Num1 < Num5
 ) {
-  console.log("minimum number " + number1);
+  console.log("minimum number " + Num1);
 }
 if (
-  number2 < number1 &&
-  number2 < number3 &&
-  number2 < number4 &&
-  number2 < number5
+  Num2 < Num1 &&
+  Num2 < Num3 &&
+  Num2 < Num4 &&
+  Num2 < Num5
 ) {
-  console.log("minimum number " + number2);
+  console.log("minimum number " + Num2);
 }
 if (
-  number3 < number2 &&
-  number3 < number1 &&
-  number3 < number4 &&
-  number3 < number5
+  Num3 < Num2 &&
+  Num3 < Num1 &&
+  Num3 < Num4 &&
+  Num3 < Num5
 ) {
-  console.log("minimum number " + number3);
+
+  console.log("minimum number " + Num3);
 }
 if (
-  number4 < number2 &&
-  number4 < number3 &&
-  number4 < number1 &&
-  number4 < number5
+  Num4 < Num2 &&
+  Num4 < Num3 &&
+  Num4 < Num1 &&
+  Num4 < Num5
 ) {
-  console.log("maximum number " + number4);
+  console.log("maximum number " + Num4);
 }
 if (
-  number5 < number2 &&
-  number5 < number3 &&
-  number5 < number1 &&
-  number5 < number4
+  Num5 < Num2 &&
+  Num5 < Num3 &&
+  Num5 < Num1 &&
+  Num5 < Num4
 ) {
-  console.log("minimum number " + number5);
+  console.log("minimum number " + Num5);
 }
