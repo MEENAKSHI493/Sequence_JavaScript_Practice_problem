@@ -2,7 +2,7 @@
 
 const prompt = require('prompt-sync')();
 
-const number = prompt("Enter a number ");
+const number = prompt("Enter a number ::");
 
 let index = 0;
 
